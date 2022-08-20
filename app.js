@@ -28,6 +28,6 @@ function outputHandler(){
     const quan=stocksquantity.value;
     const cur=currentprice.value;
     calculateProfitAndLoss(ip,quan,cur);
-    //OUTPUT HANDLED
+    //OUTPUT HANDLED Comment
 }
 resultbtn.addEventListener('click',outputHandler);
