@@ -7,3 +7,4 @@ TECHNOLOGIES USED:
 HTML ,CSS ,Javascript.
 
 CHECK OUT THE APP HERE:
+https://serene-stock-purchases.netlify.app/
