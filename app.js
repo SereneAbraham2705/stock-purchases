@@ -27,9 +27,9 @@ function calculateProfitAndLoss(initial,quantity,current){
 }
 
 function outputHandler(){
-    const ip=initialprice.value;
-    const quan=stocksquantity.value;
-    const cur=currentprice.value;
+     const ip=Number(initialprice.value);
+    const quan=Number(stocksquantity.value);
+    const cur=Number(currentprice.value);
     if(ip=="" || quan=="" || cur==""){
         outputbox.style.color="red";
         outputbox.innerText="Please fill the empty fields."
