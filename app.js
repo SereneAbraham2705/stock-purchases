@@ -30,13 +30,13 @@ function outputHandler(){
      const ip=Number(initialprice.value);
     const quan=Number(stocksquantity.value);
     const cur=Number(currentprice.value);
-    if(ip=="" || quan=="" || cur==""){
+  if(initialprice.value=="" || stocksquantity.value=="" || currentprice.value==""){
         outputbox.style.color="red";
-        outputbox.innerText="Please fill the empty fields."
+        outputbox.innerText="Please fill the empty fields.";
     }
-    else if(ip<=0 || quan<=0 || cur<=0){
+    else if(ip<=0 || quan<=0 || cur<=0 ){
         outputbox.style.color="red";
-        outputbox.innerText="Enter values greater than 0."
+        outputbox.innerText="Enter values greater than 0.";
     }
     else{
         calculateProfitAndLoss(ip,quan,cur);
